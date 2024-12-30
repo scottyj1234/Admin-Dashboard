@@ -123,6 +123,9 @@ input#dashboard-search {
 
 .header .profile-card {
   grid-area: profile-card;
+
+  display: flex;
+  align-items: center;
 }
 
 .header .action-group {
