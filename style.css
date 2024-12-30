@@ -218,6 +218,10 @@ button.action-button {
   gap: 15px;
 }
 
+.project-actions img:hover {
+  cursor: pointer;
+}
+
 p.content-header {
   font-size: 20px;
   font-weight: bold;
