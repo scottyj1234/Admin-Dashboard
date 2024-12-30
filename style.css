@@ -179,8 +179,40 @@ button.action-button {
   grid-area: 2 / 2 / 3 / 3;
 }
 
+.announcements-card,
+.trending-card {
+  display: flex;
+  flex-direction: column;
+
+  background-color: white;
+  border-radius: 15px;
+
+  box-shadow: 4px 4px 5px #00000033;
+  margin: 10px 40px 10px 10px;
+  padding: 30px;
+}
+
+.announcement {
+  border-bottom: 1px solid #6b7280;
+  padding: 10px 0px;
+}
+
+.announcement:last-child {
+  border-bottom: none;
+}
+
+.announcement h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.announcement p {
+  font-size: 12px;
+  color: #6b7280
+}
+
 p.content-header {
   font-size: 20px;
   font-weight: bold;
-  margin: 2em 0.5em 0.5em;
+  margin: 40px 10px 10px;
 }
