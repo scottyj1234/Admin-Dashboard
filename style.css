@@ -175,8 +175,14 @@ button.action-button {
   grid-area: 1 / 2 / 2 / 3;
 }
 
-.training {
+.trending {
   grid-area: 2 / 2 / 3 / 3;
+}
+
+p.content-header {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 40px 10px 10px;
 }
 
 .announcements-card,
@@ -209,10 +215,4 @@ button.action-button {
 .announcement p {
   font-size: 12px;
   color: #6b7280
-}
-
-p.content-header {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 40px 10px 10px;
 }
