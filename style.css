@@ -136,6 +136,22 @@ img.notifications:hover {
 
 .header .action-group {
   grid-area: action-group;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button.action-button {
+  border-style: none;
+  border-radius: 100px;
+  padding: 0.5em 1em;
+
+  margin: 0 0.5em 0;
+
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #0ea5e9;
 }
 
 .main-content {
