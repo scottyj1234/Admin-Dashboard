@@ -57,7 +57,8 @@ body {
   "search profile-card"
   "greeting action-group";
 
-  box-shadow: 0 3px 10px #00000033;
+  box-shadow: 0 5px 10px #00000033;
+  z-index: 1;
 }
 
 .header form {
