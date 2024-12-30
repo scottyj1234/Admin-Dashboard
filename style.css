@@ -56,6 +56,8 @@ body {
   grid-template-areas:
   "search profile-card"
   "greeting action-group";
+
+  box-shadow: 0 3px 10px #00000033;
 }
 
 .header form {
@@ -139,9 +141,11 @@ img.notifications:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0px 70px;
 }
 
 button.action-button {
+  flex: 1;
   border-style: none;
   border-radius: 100px;
   padding: 0.5em 1em;
