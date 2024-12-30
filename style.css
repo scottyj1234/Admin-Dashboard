@@ -123,9 +123,15 @@ input#dashboard-search {
 
 .header .profile-card {
   grid-area: profile-card;
-
   display: flex;
   align-items: center;
+  justify-content: flex-end;
+  margin-right: 50px;
+  gap: 25px;
+}
+
+img.notifications:hover {
+  cursor: pointer;
 }
 
 .header .action-group {
