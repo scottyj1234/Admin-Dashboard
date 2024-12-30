@@ -179,6 +179,45 @@ button.action-button {
   grid-area: 2 / 2 / 3 / 3;
 }
 
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 10px 20px 10px;
+
+  gap: 20px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 200px;
+  padding: 20px;
+
+  border-radius: 8px;
+  border-left: 8px solid gold;
+  box-shadow: 5px 5px 5px #00000033
+}
+
+.project-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.project-card p {
+  font-size: 13px;
+  color: #6b7280
+}
+
+.project-card .project-actions {
+  display: flex;
+  margin-top: auto;
+
+  justify-content: flex-end;
+  gap: 15px;
+}
+
 p.content-header {
   font-size: 20px;
   font-weight: bold;
