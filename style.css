@@ -103,6 +103,8 @@ input#dashboard-search {
   border-radius: 50%;
   width: 75px;
   height: 75px;
+
+  background-color: #eeeeee;
 }
 
 .greeting>p {
