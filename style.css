@@ -216,3 +216,33 @@ p.content-header {
   font-size: 12px;
   color: #6b7280
 }
+
+.trending-entry {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin: 10px
+}
+
+.trending-entry img {
+  border-radius: 50%;
+  background-color: #e5e7eb;
+
+  margin-right: 15px;
+}
+
+.trending-entry p span {
+  display: block;
+  margin: 0px 0px 5px;
+  padding: 0px;
+}
+
+.trending-entry span.handle {
+  font-size: 14px;
+}
+
+.trending-entry span.project-name {
+  font-size: 14px;
+  color: #6b7280
+}
