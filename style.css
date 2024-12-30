@@ -160,4 +160,6 @@ button.action-button {
 
 .main-content {
   grid-area: 2 / 2 / 3 / 3;
+
+  background-color: #e5e7eb;
 }
